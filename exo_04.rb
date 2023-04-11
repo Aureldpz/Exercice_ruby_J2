@@ -1,8 +1,4 @@
-puts "Rentre ton année de naissance !"
+print ' Rentre ton année de naissance ! '
+puts " > "
 birth_year = gets.chomp.to_i
-current_year = times.now.years
-current_age = current_year - birth_year
-
-puts {(current_year..current_age) + 1} 
-    until current_age == 100
-end
+puts "Quand tu aura 100ans ce sera l'année #{birth_year + 100}!"
