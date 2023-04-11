@@ -1,4 +1,5 @@
 print "Salut, bienvenue dans ma super pyramide ! Combien d'étages veux-tu ?"
+
 nb = gets.chomp.to_i
 
 
